@@ -5,7 +5,7 @@
 
 
 body {
-  padding: 10px 100px 20px;  /*top, right, bot, left*/
+  padding: 10px 150px 20px;  /*top, right, bot, left*/
   font-family: "Raleway",sans-serif;
   color: #333333; /* dark, almost black, gray colour */
 }
@@ -13,7 +13,7 @@ h1,
 h2 {
   font-family: "Raleway",sans-serif !important;;
   color: #d11e02;
-  font-weight: 300; /* removes default bold styles */
+  font-weight: 600; /* removes default bold styles */
   /* text-transform: uppercase;*/
   margin: 0; /* removes default space */
 }
@@ -25,14 +25,28 @@ h2 {
   font-size: 16px;
 }
 
+h3 {
+	color: #333333
+  font-size: 16px;
+  font-weight: 400;
+}
+
 a {
   color: #333333;
+  font-weight: 600;
   /* text-decoration: none; /* removes default underline */ */
 }
 
 p{
 	margin: 0; /* removes default space */
-	font-size: 14px
+	font-size: 14px;
+	font-weight: 400; 
+}
+
+li{
+	margin: 0; /* removes default space */
+	font-size: 14px;
+	font-weight: 400
 }
 
 .fa {
