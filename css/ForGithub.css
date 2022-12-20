@@ -1,0 +1,112 @@
+/* GLOBAL STYLES
+-----------------------------------------*/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #333333; /* dark, almost black, gray colour */
+}
+h1,
+h2 {
+  font-family: "Open Sans", sans-serif;
+  color: #d11e02;
+  font-weight: 300; /* removes default bold styles */
+  /* text-transform: uppercase;*/
+  margin: 0; /* removes default space */
+}
+
+ h1 {
+  font-size: 24px;
+}
+ h2 {
+  font-size: 18px;
+}
+
+a {
+  color: #333333;
+  /* text-decoration: none; /* removes default underline */ */
+}
+
+p{
+	margin: 0; /* removes default space */
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  background: white;
+  color: #575757;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.home .sf-menu a {
+	color:#05ff58;
+}
+
+/* Creating a new class for spacing using CSS*/
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+  color: #f55f02;
+}
+
+header,
+main,
+nav {
+  padding: 20px 30px;
+}
+
+/* HEADER STYLES
+-----------------------------------------*/
+header h1 {
+  font-size: 24px;
+}
+header h2 {
+  font-size: 18px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  padding: 20px;
+  color: #333333 ;
+  text-decoration: none; /* removes default underline */
+}
+
+
+
+
+
+/* ABOUT STYLES
+-----------------------------------------*/
+.profile-img {
+  float: left;
+  margin-right: 20px;
+}
+blockquote {
+  clear: both;
+  padding: 5px 150px;
+  text-align: center;
+}
+blockquote p {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
+/* FOOTER STYLES
+-----------------------------------------*/
+footer {
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1px;
+  text-transform: lowercase;
+}
