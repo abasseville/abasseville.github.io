@@ -8,6 +8,9 @@ body {
   padding: 10px 150px 20px;  /*top, right, bot, left*/
   font-family: "Raleway",sans-serif;
   color: #333333; /* dark, almost black, gray colour */
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background: #fcf7eb*/
 }
 h1,
 h2 {
@@ -67,8 +70,8 @@ ul{
   padding: 20px;
   font-size: 30px;
   width: 30px;
-  background: white;
-  color: #575757;
+  background: #fcf7eb;
+  /* color: #575757;*/
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -183,21 +186,11 @@ float: bottom;
   margin-right: 20px;
 }
 
-blockquote {
-  clear: both;
-  padding: 5px 150px;
-  text-align: center;
-}
-blockquote p {
-  font-family: "Pacifico", cursive;
-  font-size: 30px;
-}
+
 
 /* FOOTER STYLES
 -----------------------------------------*/
 footer {
-
-  background: rgba(255, 255, 255, 0.8);
   padding: 1px;
   /* text-transform: lowercase;
 }
