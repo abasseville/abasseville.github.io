@@ -22,7 +22,7 @@ h2 {
   font-size: 18px;
 }
  h2 {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom:5px;
 }
 
@@ -43,7 +43,7 @@ a {
 p{
 	margin: 0; /* removes default space */
 	line-height: 150%;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 400; 
 	text-align: justify;
     text-justify: inter-word;
@@ -52,7 +52,7 @@ p{
 li{
 	margin: 0; /* removes default space */
 	line-height: 150%;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 400;
 	text-align: justify;
     text-justify: inter-word;
