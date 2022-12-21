@@ -138,17 +138,17 @@ nav a {
 /* ABOUT STYLES
 -----------------------------------------*/
 
-#hp_r  {
+#hpr  {
 float: right;    
  margin: 0 0 0 15px;
 }
 
-#hp_l {
+#hpl {
 float: left;    
  margin: 0 15px 0 ;
 }
 
-#hp_b {
+#hpb {
 float: bottom;    
  margin: 0  ;
 }
