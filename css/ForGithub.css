@@ -148,6 +148,11 @@ footer p {
 /* ABOUT STYLES
 -----------------------------------------*/
 
+
+.active-class {
+color: #f55f02;
+}
+
 #hpr  {
 float: right;    
  margin: 0 0 0 15px;
