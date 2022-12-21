@@ -131,7 +131,10 @@ nav a {
   text-decoration: none; /* removes default underline */
 }
 
-
+footer p {
+  font-size: 11px;
+  text-align: center;
+}
 
 
 
@@ -166,11 +169,6 @@ float: bottom;
 .profile-img {
   float: left;
   margin-right: 20px;
-}
-
-footer p {
-  font-size: 11px;
-  text-align: center;
 }
 
 blockquote {
