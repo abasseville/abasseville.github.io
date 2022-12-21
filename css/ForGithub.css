@@ -13,7 +13,7 @@ h1,
 h2 {
   font-family: "Raleway",sans-serif !important;;
   color: #d11e02;
-  font-weight: 550; /* removes default bold styles */
+  font-weight: 530; /* removes default bold styles */
   /* text-transform: uppercase;*/
   margin: 0; /* removes default space */
 }
@@ -29,7 +29,7 @@ h2 {
 h3 {
 	color: #333333
   font-size: 14px;
-  font-weight: 550;
+  font-weight: 530;
   margin: 0; /* removes default space */;
   margin-bottom:5px;
 }
@@ -137,10 +137,42 @@ nav a {
 
 /* ABOUT STYLES
 -----------------------------------------*/
+
+#hp_r  {
+float: right;    
+ margin: 0 0 0 15px;
+}
+
+#hp_l {
+float: left;    
+ margin: 0 15px 0 ;
+}
+
+#hp_b {
+float: bottom;    
+ margin: 0  ;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: 120;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
 .profile-img {
   float: left;
   margin-right: 20px;
 }
+
+footer p {
+  font-size: 11px;
+  text-align: center;
+}
+
 blockquote {
   clear: both;
   padding: 5px 150px;
@@ -154,9 +186,8 @@ blockquote p {
 /* FOOTER STYLES
 -----------------------------------------*/
 footer {
+
   background: rgba(255, 255, 255, 0.8);
-  font-size: 10px;
-  text-align: center;
   padding: 1px;
   /* text-transform: lowercase;
 }
