@@ -28,8 +28,8 @@ h2 {
 
 h3 {
 	color: #333333
-  font-size: 14px;
-  font-weight: 530;
+  font-size: 13px;
+  font-weight: 520;
   margin: 0; /* removes default space */;
   margin-bottom:5px;
 }
@@ -42,6 +42,7 @@ a {
 
 p{
 	margin: 0; /* removes default space */
+	line-height: 150%;
 	font-size: 14px;
 	font-weight: 400; 
 	text-align: justify;
@@ -50,10 +51,16 @@ p{
 
 li{
 	margin: 0; /* removes default space */
+	line-height: 150%;
 	font-size: 14px;
 	font-weight: 400;
 	text-align: justify;
     text-justify: inter-word;
+}
+
+ul{
+	margin: 0; /* removes default space */
+
 }
 
 .fa {
