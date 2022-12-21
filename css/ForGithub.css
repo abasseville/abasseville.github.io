@@ -2,6 +2,16 @@
 -----------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+@media only screen and (min-width: 768px) {
+body {
+  padding: 10px 0 20px;  /*top, right, bot, left*/
+  font-family: "Raleway",sans-serif;
+  color: #333333; /* dark, almost black, gray colour */
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background: #fcf7eb*/
+}
+}
 
 
 body {
@@ -71,6 +81,7 @@ ul{
   font-size: 30px;
   width: 30px;
   background: #fcf7eb;
+  color: white;
   /* color: #575757;*/
   text-align: center;
   text-decoration: none;
