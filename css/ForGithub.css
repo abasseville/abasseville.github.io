@@ -5,10 +5,10 @@
 
 @media only screen and (max-width: 768px) {
    *, html, body, .row {
-      margin-left:0 !important;
-      margin-right:0 !important;
-      padding-left:0 !important;
-      padding-right:0 !important;
+      margin-left:0 ;
+      margin-right:0 ;
+      padding-left:0 ;
+      padding-right:0 ;    /* !important */
    }
 }
 
@@ -79,9 +79,9 @@ ul{
   padding: 20px;
   font-size: 30px;
   width: 30px;
-  background: #fcf7eb;
-  color: white;
-  /* color: #575757;*/
+  /*background: #fcf7eb; */
+  background: white;
+  color: #575757;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
