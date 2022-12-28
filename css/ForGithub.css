@@ -186,14 +186,15 @@ float: bottom;
  margin: 0  ;
 }
 
-.img-with-text {
+.img-right-text-left {   /* create class*/
     text-align: justify;
-    width: 120;
+    width: 550px;
 }
 
-.img-with-text img {
-    display: block;
-    margin: 0 auto;
+.img-right-text-left img {   /* specify the position of the image*/
+    float: left;
+	position: absolute;   
+    left: 550px;         /* 150 from padding + 120 from text*/
 }
 
 .profile-img {
