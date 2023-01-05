@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
 
 @media only screen and (max-width: 900px) {
-   *, html,main, body, .row {
+   html{
       margin-left:0 ;
       margin-right:0 ;
       padding-left:0 ;
