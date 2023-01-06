@@ -92,6 +92,12 @@ ul{
     margin-left: 40px;
 }
 
+@media only screen and (max-width: 800px) {
+   .tab{
+      margin-left: 0px; !important; 
+   }
+}
+
 a:hover {  /* On mouse-over, make the elements appear as they should */
   left: 0; 
   color: #f55f02;
