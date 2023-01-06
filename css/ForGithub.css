@@ -15,6 +15,15 @@ body {
   background-repeat: no-repeat;
   /* background: #fcf7eb*/
 }
+
+@media only screen and (max-width: 800px) {
+   body{
+      margin-left:5px ;
+      margin-right:5px ;
+      padding-left:5px ;
+      padding-right:5px ;    /* !important */
+   }
+}
 h1,
 h2 {
   font-family: "Raleway",sans-serif !important;;
@@ -205,12 +214,3 @@ footer {
   /* text-transform: lowercase; */
 }
 
-@media only screen and (max-width: 800px) {
-   main{
-      margin-left:5px ;
-      margin-right:5px ;
-      padding-left:5px ;
-      padding-right:5px ;    /* !important */
-	   background-color:red; 
-   }
-}
