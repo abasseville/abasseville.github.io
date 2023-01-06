@@ -13,7 +13,7 @@ body {
   /* background: #fcf7eb*/
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-width: 800px) {
    body{
       padding: 5px 5px 5px 5px !important; 
    }
@@ -92,7 +92,7 @@ ul{
     margin-left: 40px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-width: 800px) {
    .tab{
       margin-left: 0px; !important; 
    }
