@@ -201,12 +201,6 @@ float: bottom;
     left: 550px;         /* 150 from padding + 120 from text*/
 }
 
-@media only screen and (max-width: 480px) {
-   .img-right-text-left img{
-      left: 400px;  
-   }
-}
-
 
 .profile-img {
   float: left;
