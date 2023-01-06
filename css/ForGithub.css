@@ -7,7 +7,7 @@
 body {
   padding: 10px 150px 10px 150px;  /*top, right, bot, left*/
   font-family: "Raleway",sans-serif;
-  color: #333333; /* dark, almost black, gray colour */
+  color: #333333; /* dark gray */
   background-size: contain;
   background-repeat: no-repeat;
   /* background: #fcf7eb*/
@@ -15,12 +15,13 @@ body {
 
 @media only screen and (max-width: 800px) {
    body{
-      padding-left: 0 !important; 
+      padding: 5px 5px 5px 5px !important; 
    }
 }
+
 h1,
 h2 {
-  font-family: "Raleway",sans-serif !important;;
+  font-family: "Raleway",sans-serif !important;
   color: #d11e02;
   font-weight: 530; /* removes default bold styles */
   /* text-transform: uppercase;*/
