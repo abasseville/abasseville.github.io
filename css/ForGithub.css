@@ -1,14 +1,16 @@
 /* GLOBAL STYLES
 -----------------------------------------*/
 
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 body {
   padding: 10px 150px 10px 150px;  /*top, right, bot, left*/
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway",sans-serif !important;
   color: #333333; /* dark gray */
   background-size: contain;
   background-repeat: no-repeat;
@@ -17,7 +19,11 @@ body {
 
 @media only screen and (min-device-width: 320px) and (max-width: 800px) {
    body{
-      padding: 5px 5px 5px 5px !important; 
+      padding: 10px 10px 10px 10px !important; 
+	    font-family: "Raleway",sans-serif !important;
+      color: #333333; /* dark gray */
+      background-size: contain;
+      background-repeat: no-repeat;
    }
 }
 
@@ -96,7 +102,8 @@ ul{
 
 @media only screen and (min-device-width: 320px) and (max-width: 800px) {
    .tab{
-      margin-left: 0px; !important; 
+	   display: inline-block;
+      margin-left: 0px !important; 
    }
 }
 
