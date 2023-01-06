@@ -3,15 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
 
-@media only screen and (max-width: 800px) {
-   main{
-      margin-left:px ;
-      margin-right:5px ;
-      padding-left:5px ;
-      padding-right:5px ;    /* !important */
-	   background-color:red; 
-   }
-}
+
 
 
 
@@ -210,5 +202,15 @@ float: bottom;
 -----------------------------------------*/
 footer {
   padding: 1px;
-  /* text-transform: lowercase;
+  /* text-transform: lowercase; */
+}
+
+@media only screen and (max-width: 800px) {
+   main{
+      margin-left:px ;
+      margin-right:5px ;
+      padding-left:5px ;
+      padding-right:5px ;    /* !important */
+	   background-color:red; 
+   }
 }
