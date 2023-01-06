@@ -13,7 +13,7 @@ body {
   /* background: #fcf7eb*/
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 480px) {
    body{
       padding: 5px 5px 5px 5px !important; 
    }
@@ -92,7 +92,7 @@ ul{
     margin-left: 40px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 480px) {
    .tab{
       margin-left: 0px; !important; 
    }
@@ -200,6 +200,13 @@ float: bottom;
 	position: absolute;   
     left: 550px;         /* 150 from padding + 120 from text*/
 }
+
+@media only screen and (max-width: 480px) {
+   .img-right-text-left img{
+      left: 400px;  
+   }
+}
+
 
 .profile-img {
   float: left;
