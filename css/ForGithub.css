@@ -228,13 +228,21 @@ float: bottom;
 
 .img-right-text-left {   /* create class*/
     text-align: justify;
-    width: 450px;
+    width: 550px;
 }
 
 .img-right-text-left img {   /* specify the position of the image*/
     float: left;
 	position: absolute;   
+    left: 550px;         /* 150 from padding + 120 from text*/
+}
+
+@media only screen and (max-width: 1150px) {
+   .img-right-text-left img{
+    float: left;
+	position: absolute;   
     left: 450px;         /* 150 from padding + 120 from text*/
+   }
 }
 
 .img-right-text-left pre {   /* specify the position of the image*/
