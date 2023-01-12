@@ -88,6 +88,16 @@ ul{
 
 }
 
+ul ul{
+  margin-left:40px;
+}
+
+@media only screen and (max-width: 1150px) {
+   ul ul{
+    margin-left:0px;
+   }
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
