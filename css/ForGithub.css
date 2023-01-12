@@ -74,6 +74,16 @@ p{
     text-justify: inter-word;
 }
 
+pre{
+	margin: 0; /* removes default space */
+	font-family: "Raleway",sans-serif !important;
+	line-height: 150%;
+	font-size: 13px;
+	font-weight: 400; 
+	text-align: justify;
+    text-justify: inter-word;
+}
+
 li{
 	margin: 0; /* removes default space */
 	line-height: 150%;
