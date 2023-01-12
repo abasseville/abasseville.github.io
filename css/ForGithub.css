@@ -246,12 +246,12 @@ float: bottom;
 }
 
 .img-right-text-left pre {   /* specify the position of the image*/
-    font-size: 13px; 
+    font-size: 13px ; 
 }
 
 @media only screen and (max-width: 1150px) {
   img-right-text-left pre {   
-    font-size: 13px; 
+    font-size: 13px !important; 
 }
 }
 
