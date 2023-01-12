@@ -218,6 +218,7 @@ float: bottom;
 }
 
 .img-right-text-left {   /* create class*/
+    font-size: 13px;
     text-align: justify;
     width: 550px;
 }
