@@ -249,6 +249,12 @@ float: bottom;
     font-size: 13px; 
 }
 
+@media only screen and (max-width: 1150px) {
+  img-right-text-left pre {   
+    font-size: 13px; 
+}
+}
+
 
 .profile-img {
   float: left;
