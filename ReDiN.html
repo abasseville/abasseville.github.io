@@ -52,18 +52,20 @@
 
 			<br>
 			<br>			
-			<p>ReDin (Reductive Discriminating Network) is a project awarded by the <i>Ligue Nationale Contre le Cancer</i>, and led by Chiara Cordier, PhD student. </p><br>
+			<p>HABiC (Hungarian Algorithm for Binary Classification) is a project awarded by the <i>Ligue Nationale Contre le Cancer</i>, and led by Chiara Cordier during her PhD. </p><br>
 			<p>   <!-- n&lt; replaces the "<"  &gt; replaces the ">"   -->
-			In this project, we aim to develop deep learning algorithms to predict treatment response in breast cancer using transcriptomic data. One of the biggest 
-			issues when using predictive algorithms with health data is the curse of dimensionality: the number of features (genes) is too high compared to number of 
-			observation (patient samples). In this setting (n&lt;&lt;p), algorithm performances are generally not good enough for a clinical use.</p>
-			<p>To deal with these difficulties, our first approach will be to generate virtual patient transcriptomic data thanks to a deep learning algorithm named GAN 
-			(Generative Adversarial Network), that has been first developed by Goodfellow <i>et al.</i> (<a href="https://arxiv.org/abs/1406.2661"target="_blank">2014</a>) to create highly realistic pictures of non-existent people. We will 
-			used an alternative version of GAN named Wasserstein GAN or WGAN (<a href="https://arxiv.org/abs/1701.07875"target="_blank">Arjovsky <i>et al.</i>, 2017</a>).</p><br>
-			<p>The second considered solution will be to reduce the number of features without losing relevant information provided by them. To this end, we were inspired 
-			by WGAN process (two neural networks learning simultaneously) to develop a new algorithm that we named Reductive Discriminating Network (ReDiN). In ReDin, one 
-			of the networks aims to reduce data dimension while the other one assigns a score to each reduced data in order to evaluate its class. Both networks are then 
-			optimized to maximize the Wasserstein distance (estimated using the scores assigned by the second network) between distributions of the two class-split reduced groups.
+			Breast cancer is the most deadly cancer among women, mainly due to resistance to treatments. One strategy to reduce recurrence is personalized medicine. Since each tumor is unique, 
+			it is essential to assign each patient the treatment best suited to the characteristics of their tumor. To this end, it is possible to develop predictive models of treatment response 
+			based on omics data from the tumor. However, processing this type of data, which is complex and suffers from the curse of dimensionality, requires the development of more suitable approaches. 
+			With that purpose, diverse mathematical-oriented strategies can be implemented. Here, a binary classifier was built from the dual formulation of the Wasserstein distance between the data distributions of each class, 
+			as were its regularized versions and its deep learning counterpart. These methods proved to be suitable for processing the tested data, especially when the predictive information is spread across many variables.
+            
+			This funded work has been accepted in May 2025 (Bioinformatics, in press): 
+			<a href="https://academic.oup.com/bioinformatics"target="_blank">HABiC: an algorithm based on the exact computation of the Kantorovich-Rubinstein optimizer for binary classification in transcriptomics. 
+			</a>.  
+			Other publications <a href="Publications.html">here</a>
+			
+			
 			</p>
 			<br>
 			
