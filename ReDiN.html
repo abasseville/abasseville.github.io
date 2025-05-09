@@ -51,15 +51,25 @@
             
 
 			<br>
+			<br>	
+			<h2>HABiC (Hungarian Algorithm for Binary Classification)</h2>
 			<br>			
-			<p>HABiC (Hungarian Algorithm for Binary Classification) is a project awarded by the <i>Ligue Nationale Contre le Cancer</i>, and led by Chiara Cordier during her PhD. </p><br>
+			<p>HABiC is a project awarded by the <i>Ligue Nationale Contre le Cancer</i>, and led by Chiara Cordier during her PhD. </p><br>
 			<p>   <!-- n&lt; replaces the "<"  &gt; replaces the ">"   -->
-			Breast cancer is the most deadly cancer among women, mainly due to resistance to treatments. One strategy to reduce recurrence is personalized medicine. Since each tumor is unique, 
-			it is essential to assign each patient the treatment best suited to the characteristics of their tumor. To this end, it is possible to develop predictive models of treatment response 
-			based on omics data from the tumor. However, processing this type of data, which is complex and suffers from the curse of dimensionality, requires the development of more suitable approaches. 
-			With that purpose, diverse mathematical-oriented strategies can be implemented. Here, a binary classifier was built from the dual formulation of the Wasserstein distance between the data distributions of each class, 
-			as were its regularized versions and its deep learning counterpart. These methods proved to be suitable for processing the tested data, especially when the predictive information is spread across many variables.
+			Machine learning classification is a well-established discipline whose algorithms have shown excellent performances in many fields. In healthcare, they are currently being developed 
+			to improve precision medicine, and are already used in the clinic to stratify patient from medical images. Nevertheless, and despite the clinical need, classification models based 
+			on molecular omics data are not currently applicable in the clinic due to their poor performances linked to high dimensionality and data structure inherent to omics data. 
+			In this particular area, new strategies are still required to improve classification methods.
             </p>
+			<p> We tested two new strategies to build an algorithm that improves transcriptomics-based classification models. Firstly, we used as a metric the Wasserstein distance 
+			derived from optimal transport instead of the commonly used Euclidean distance. The Wasserstein distance has gained popularity with omics data in recent years, 
+			but no Wasserstein-based classifier has been developed for omics data yet. Secondly, our algorithm computes the exact Wasserstein distance (or more precisely the optimizer related 
+			to the 1-Wasserstein distance) instead of a distance approximation typically performed using a neural network. The use of an exact algorithm allows to increase model precision 
+			while avoiding complex approximation steps and optimization pitfalls. Exact methods are not generally used due to their high computational cost for large sample sizes, 
+			but omics data, with their small sample sizes, allow the use of an algorithm in O(n3) time, turning a disadvantage into an advantage. Compared to the state-of-the-art 
+			classification algorithms, our algorithm is faster to run since there are no hyperparameter tuning steps. We also observed that it was best suited when class information 
+			was shared between a large number of informative variables.
+			 </p>
 			<br>
 			<p>
 			This funded work has been accepted in May 2025 (Bioinformatics, in press): 
