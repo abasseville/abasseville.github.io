@@ -51,42 +51,70 @@
             
             <br>
 			<br>
-			<br>	
-			<h2>1. HABiC (Hungarian Algorithm for Binary Classification)</h2>
-			<br>			
-			<p>HABiC is a project awarded by the <i>Ligue Nationale Contre le Cancer</i>, and led by Chiara Cordier during her PhD. </p><br>
+		
 			<p>   <!-- n&lt; replaces the "<"  &gt; replaces the ">"   -->
-			Machine learning classification is a well-established discipline whose algorithms have shown excellent performances in many fields. In healthcare, they are currently being developed 
-			to improve precision medicine, and are already used in the clinic to stratify patient from medical images. Nevertheless, and despite the clinical need, classification models based 
-			on molecular omics data are not currently applicable in the clinic due to their poor performances linked to high dimensionality and data structure inherent to omics data. 
-			In this particular area, new strategies are still required to improve classification methods.
+			Machine learning classification is a well-established discipline whose algorithms have shown excellent performances in many fields. In healthcare, they are currently 
+			being developed to improve precision medicine, and are already used in the clinic to stratify patient from medical images. Nevertheless, and despite the clinical need, 
+			classification models based on molecular high dimentional tabular data type omics are not currently applicable in the clinic due to their poor performances linked 
+			to high dimensionality and data structure inherent to omics data. In this particular area ((predictive oncology), new strategies are still required to improve classification models.
             </p>
-			<p> We tested two new strategies to build an algorithm that improves transcriptomics-based classification models. Firstly, we used as a metric the Wasserstein distance 
-			derived from optimal transport instead of the commonly used Euclidean distance. The Wasserstein distance has gained popularity with omics data in recent years, 
-			but no Wasserstein-based classifier has been developed for omics data yet. Secondly, our algorithm computes the exact Wasserstein distance (or more precisely the optimizer related 
-			to the 1-Wasserstein distance) instead of a distance approximation typically performed using a neural network. The use of an exact algorithm allows to increase model precision 
-			while avoiding complex approximation steps and optimization pitfalls. Exact methods are not generally used due to their high computational cost for large sample sizes, 
-			but omics data, with their small sample sizes, allow the use of an algorithm in O(n3) time, turning a disadvantage into an advantage. Compared to the state-of-the-art 
-			classification algorithms, our algorithm is faster to run since there are no hyperparameter tuning steps. We also observed that it was best suited when class information 
-			was shared between a large number of informative variables.
-			 </p>
 			<br>
-			<p>
-			This funded work has been published (Cordier et al., Bioinformatics, 2025): 
-			<a href="https://doi.org/10.1093/bioinformatics/btaf310"target="_blank">HABiC: an algorithm based on the exact computation of the Kantorovich-Rubinstein optimizer for binary 
-			classification in transcriptomics. 
-			</a>.  
-			Other publications <a href="Publications.html">here</a>
-			<br><br>
-			<h2>2. LVAE (article in preparation)</h2>
+			<h2>1. Development of Wasserstein distance-based classifiers (HABiC project)</h2>
+			
+			<p> Our first axe to improve omics-based classification models was the development of classifier using Wasserstein distance (in collaboration with the LAREMA 
+			(Mathematical lab in Angers). We tested two new strategies. Firstly, we used as a metric the Wasserstein distance derived from optimal transport instead of the 
+			commonly used Euclidean distance. The Wasserstein distance has gained popularity with omics data in recent years, but no Wasserstein-based classifier has been 
+			developed for omics data yet. Secondly, our algorithm computes the exact Wasserstein distance (or more precisely the optimizer related to the 1-Wasserstein distance) 
+			instead of a distance approximation typically performed using a neural network. The use of an exact algorithm allows to increase model precision while avoiding 
+			complex approximation steps and optimization pitfalls. Exact methods are not generally used due to their high computational cost for large sample sizes, but 
+			omics data, with their small sample sizes, allow the use of an algorithm in O(n3) time, turning a disadvantage into an advantage. Compared to the 
+			state-of-the-art classification algorithms, our algorithm is faster to run since there are no hyperparameter tuning steps. We also observed that it was best 
+			suited when class information was shared between a large number of informative variables. This funded work, funded by la Ligue Contre Le Cancer, has been published 
+			(<a href="https://doi.org/10.1093/bioinformatics/btaf310"target="_blank">Cordier et al., Bioinformatics, 2025</a>).
+			 </p>
+
+			<br>
+			<br>
+			<h2>2. High dimension reduction algorithm (LVAE project)</h2>
+			
+			Molecular omics are high dimensional, complex and multivariate data used to decipher intricate and multifaceted molecular exchanges in cells. Their analysis 
+			is generally performed with machine learning, but derived models are often hampered by high background noise. One way to counter this issue is to use dimension 
+			reduction methods, which retain important information while removing noise. Here, we tested several autoencoder based-algorithms including our own algorithm. 
+			We evaluated their performance in latent space construction as well as in reconstructed data, in several contexts (submitted manuscript)
+			</p>
+			<br>
+			<br>
+			<h2>3. Data integration and multitask learning</h2>
+			
+			In this project, funded by the SIRIC ILIAD, we aim to address the challenge in predictive oncology by combining data from various modalities while developing 
+			a multitask deep learning (MTL) approach to overcome data over-scarcity inherent to the field. MTL is a subfield of supervised learning where a single model 
+			is trained simultaneously on multiple tasks. It offers a solution to data scarcity since multitasking enhances its ability to generalize. Another advantage 
+			is that it can be trained by combining multiple small- and medium-sized datasets from distinct tasks and from heterogeneous datasets, making it a great candidate 
+			to cope with the limited data availability in oncology. Additionally, multitask models can be coupled to multimodal models to enhance learning, improve 
+			generalization and be more robust to missing data.
 			</p>
 			<br>
 			
 			
-			<br><br>
-			<center>
-			<img src="images/LLCC_newlogo.jpg" alt="" height="70" id="hp2"/></p>
+			<div class="row">
+            <div class="column">
+            <center>
+           <img src="images/LLCC_newlogo.jpg" alt="" height="70" id="hp2"/></p>
 		    </center>
+            </div>
+            <div class="column">
+			<center>
+            <img src="images/Logo-SIRIC-ILIAD.webp" alt="" height="70" id="hp2"/></p>
+			</center>
+            </div>
+            <div class="column">
+			<center>
+            <img src="images/perseverance_ICO.png" alt="" height="70" id="hp2"/></p>
+			</center>
+            </div>
+             </div>
+			<br>
+			<br>
 		
 			
 
