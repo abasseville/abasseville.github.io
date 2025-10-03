@@ -189,9 +189,11 @@ nav a {
   text-decoration: none; /* removes default underline */
 }
 
-header a {
-  color: #d11e02 ;
-  text-decoration: none; /* removes default underline */
+
+header h1 a,
+header h2 a {
+  color: #d11e02;
+  text-decoration: none;
 }
 
 footer p {
