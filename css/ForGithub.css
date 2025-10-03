@@ -189,6 +189,11 @@ nav a {
   text-decoration: none; /* removes default underline */
 }
 
+header a {
+  color: #333333 ;
+  text-decoration: none; /* removes default underline */
+}
+
 footer p {
   font-size: 11px;
   text-align: center;
